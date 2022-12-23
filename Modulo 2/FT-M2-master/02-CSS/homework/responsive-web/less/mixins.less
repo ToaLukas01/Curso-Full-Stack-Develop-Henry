@@ -1,0 +1,16 @@
+// Mixins acá
+.flex (@direction, @justify, @align){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.button(@bgColor, @fontColor, @fontSize){
+    background-color: @bgColor;
+    color: @fontColor;
+    font-size: @fontSize;
+    border: 1px solid @bgColor;
+    border-radius: 5px;
+    .flex(row, center, center);
+}

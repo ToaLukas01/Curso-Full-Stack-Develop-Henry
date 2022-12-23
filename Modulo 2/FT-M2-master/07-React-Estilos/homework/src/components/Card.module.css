@@ -1,0 +1,39 @@
+.colorTitulo{
+    color:rgb(47, 58, 82) ;
+}
+
+.colorMin{
+    color: aqua;
+}
+
+.colorMax{
+    color: brown;
+}
+
+.colorFondo{
+    background-color: rgb(211, 210, 210);
+    border: 5px;
+    border-style: double;
+    border-color: gray;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: 20px;
+}
+
+.columnas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    
+}
+
+.boton{
+    color: rgb(219, 219, 219);
+    margin: 10px;
+    border-color: rgb(211, 166, 166);
+    background-color: rosybrown;
+}

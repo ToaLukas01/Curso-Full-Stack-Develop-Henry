@@ -1,0 +1,28 @@
+#logoHenry {
+  margin-right: 20px;
+  background-color: rgb(49, 51, 51);
+}
+
+#tituloNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 50%;
+  color: aliceblue;
+}
+
+#navegacion{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#busqueda{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(154, 175, 152);
+  color: rgb(44, 236, 44);
+  border-color: rgb(100, 233, 100);
+}
